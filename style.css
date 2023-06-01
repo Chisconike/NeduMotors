@@ -1,0 +1,518 @@
+/* ================================ Defaults ========================= */
+
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* ============================ Nav ================================= */
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+ul.topnav {
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+ul.topnav li a {
+    color: white;
+    min-height: 20px;
+    padding: 20px;
+}
+
+ul.topnav li a:hover {
+    background-color: #0080ee;
+    color: white;
+}
+
+a.big {
+    color: red;
+    font-size: 30px;
+    padding: 10px;
+}
+
+nav button {
+    width: 150px;
+    height: 30px;
+    margin-top: 13px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+ul.topnav li.menu {
+    display: none;
+}
+
+/* ================================ Main ============================= */
+
+div.section1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-image: url(mike-kotsch-JOCbjNW5_Rc-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* =========================== div head ============================== */
+
+div.head {
+    width: 40%;
+    margin-top: 100px;
+    text-align: left;
+
+}
+
+div.head h1 {
+    color: red;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+div.head p {
+    color: rgb(37, 114, 222);
+    font-weight: 500;
+    box-sizing: border-box;
+    background-color: #cad4dcbc;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+/* ============================ div headLeft ======================== */
+
+div.headLeft {
+    width: 40%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* ========================== headLeft h2 ============================ */
+
+div.headLeft h2 {
+    color: blue;
+    padding: 10px;
+
+}
+
+.headLeft div.h2s {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: #ffffffd8;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+/* =============================== h2s Button ====================== */
+
+div.h2s button {
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+div.h2s button:hover {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline 2px solid orange;
+
+}
+
+/* ========================== headLeft P ============================== */
+div.headLeft p {
+    background-color: #ffffffd8;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #ffa600be;
+    text-align: center;
+}
+
+/* ============================== headLeft Form ===================== */
+
+div form {
+    background-color: #ffffffd8;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
+form button {
+    display: block;
+    width: 100px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: auto;
+}
+
+input {
+    padding: 3px 3px;
+    float: right;
+}
+
+select {
+    padding: 3px 3px;
+    float: right;
+}
+
+/* ============================== Section2 ======================== */
+.section2 {
+    margin-top: 0px;
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    line-height: 1.5;
+    background-color: #e2d8d295;
+    padding-bottom: 20px;
+
+
+}
+
+.asection2 {
+    width: 30%;
+}
+
+.bsection2 {
+    width: 30%;
+}
+
+.csection2 {
+    width: 30%;
+}
+
+h2 {
+    padding: 10px;
+    color: #0080ee;
+}
+
+/* ================================ Section 3 ======================= */
+div.section3 {
+    text-align: left;
+    display: flex;
+    width: 100%;
+    height: 350px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2d8d295;
+}
+
+.asection3 {
+    background-image: url(alexandre-debieve-oHNbTFe9-IE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    padding-left: 20px;
+}
+
+/* ========================== a section3  ========================== */
+.asection3 h2 {
+    display: block;
+    color: red;
+    font-size: 40px;
+    padding-top: 50px;
+
+}
+
+.asection3 p {
+    display: block;
+    color: white;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.asection3 button {
+    display: block;
+    padding: 10px 20px;
+    width: 350px;
+    margin-top: 150px;
+    color: #0080ee;
+    border: none;
+    border-radius: 10px;
+}
+
+/* ======================== b section3 ============================= */
+
+.bsection3 {
+    background-image: url(damir-kopezhanov-R1WD3mMjGPA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    padding-left: 20px;
+}
+
+.bsection3 h2 {
+    display: block;
+    color: red;
+    font-size: 40px;
+    padding-top: 50px;
+
+}
+
+.bsection3 p {
+    display: block;
+    color: white;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.bsection3 button {
+    display: block;
+    padding: 10px 20px;
+    width: 350px;
+    margin-top: 150px;
+    color: #0080ee;
+    border: none;
+    border-radius: 10px;
+}
+
+/* ========================= c section3 ============================ */
+.csection3 {
+    background-image: url(rafelia-kurniawan-GRy4CIDUsSA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    padding-left: 20px;
+}
+
+.csection3 h2 {
+    display: block;
+    color: red;
+    font-size: 40px;
+    padding-top: 50px;
+
+}
+
+.csection3 p {
+    display: block;
+    color: white;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.csection3 button {
+    display: block;
+    padding: 10px 20px;
+    width: 350px;
+    margin-top: 150px;
+    color: #0080ee;
+    border: none;
+    border-radius: 10px;
+}
+
+/* ============================ Footer ========================= */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #12202c;
+    color: white;
+    padding: 20px;
+}
+
+div ul li {
+    padding: 10px;
+}
+
+/* ================================= Mobile ========================== */
+
+@media (min-width: 320px) and (max-width: 870px) {
+    * {
+        gap: 10px;
+    }
+
+    a.big,
+    button {
+        display: none;
+    }
+
+    ul.topnav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+
+    ul.topnav li.menu {
+        display: block;
+    }
+
+    ul.topnav li a:hover {
+        background-color: transparent;
+    }
+
+    /* =================== main Mobile ============================== */
+
+    div.section1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 100vh;
+    }
+
+    div.head {
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    div.head h1 {
+        font-size: 30px;
+    }
+
+    div.headLeft {
+        width: 90%;
+        height: 350px;
+        margin-top: 0;
+        text-align: left;
+    }
+
+    div.h2s h2 button {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #ffffff00;
+        font-size: 15px;
+    }
+
+    div.headLeft p {
+        font-size: 18px;
+    }
+
+    /* ======================== Section 2 ========================== */
+    .section2 {
+        margin-top: 0px;
+        padding-top: 20px;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        line-height: 1;
+    }
+
+    .asection2,
+    .bsection2,
+    .csection2 {
+        width: 90%;
+    }
+
+    /* ========================= Section 3 ========================== */
+    div.section3 {
+        background-color: #e2d8d295;
+    }
+
+    .asection3 {
+        display: block;
+        background-image: url(alexandre-debieve-oHNbTFe9-IE-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 90%;
+        height: 350px;
+    }
+
+    .asection3 button {
+        width: 310px;
+    }
+
+    .bsection3 {
+        display: block;
+        background-image: url(damir-kopezhanov-R1WD3mMjGPA-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 90%;
+        height: 350px;
+    }
+
+    .bsection3 button {
+        width: 310px;
+    }
+
+
+    .csection3 {
+        display: block;
+        background-image: url(rafelia-kurniawan-GRy4CIDUsSA-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 90%;
+        height: 350px;
+    }
+
+    .csection3 button {
+        width: 310px;
+    }
+
+    /* ========================= Footer ============================== */
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        padding-top: 740px;
+    }
+
+
+    /* ===================== JAVA Script ============================ */
+    ul.topnav.drop li.menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul.topnav.drop {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+
+    }
+
+    ul.topnav.drop li {
+        display: inline;
+    }
+
+    ul.topnav.drop li a {
+        display: block;
+        padding: 5px;
+    }
+
+}
